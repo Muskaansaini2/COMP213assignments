@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  address {
+    float: right;
+    text-align: right;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .property-details {
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  .property-info {
+    float: left;
+    width: 30%;
+  }
+  
+  .property-info h2 {
+    color: #007bff;
+  }
+  
+  .property-description {
+    float: left;
+    width: 50%;
+  }
+  
+  .similar-properties {
+    clear: both;
+    margin-top: 20px;
+  }
+  
+  .similar-properties ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .similar-properties ul li {
+    margin-bottom: 5px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .agent-details {
+    margin-bottom: 20px;
+  }
+  
+  .agent-details img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }

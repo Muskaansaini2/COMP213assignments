@@ -1,0 +1,152 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.nav-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.agent-info {
+    text-align: center;
+}
+
+.agent-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.agent-details h2 {
+    margin: 5px 0;
+}
+
+.agent-details p {
+    margin: 5px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Introduction Section */
+.introduction {
+    text-align: center;
+}
+
+/* Services Section */
+.services {
+    margin-top: 50px;
+}
+
+.services h2 {
+    margin-bottom: 20px;
+}
+
+.services ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.services ul li {
+    margin-bottom: 10px;
+}
+
+/* Contact Information Section */
+.contact-info {
+    margin-top: 50px;
+}
+
+.contact-info h2 {
+    margin-bottom: 20px;
+}
+
+/* Featured Listings Section */
+#featured-listings {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.listing {
+    margin-bottom: 40px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.listing-image {
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.listing-details {
+    flex-grow: 1;
+}
+
+.listing h3 {
+    margin-top: 0;
+}
+
+.listing p {
+    margin: 5px 0;
+}
+
+.view-more {
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.view-more:hover {
+    background-color: #555;
+}
+
+#customer-reviews {
+    background-color: #f2f2f2;
+    padding: 20px;
+}

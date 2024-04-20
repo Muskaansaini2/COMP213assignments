@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.property {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.property .details {
+    flex-grow: 1;
+}
+
+.property .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.property .header h2 {
+    margin: 0;
+}
+
+.property .attributes {
+    margin-top: 10px;
+}
+
+.property .attributes p {
+    margin: 5px 0;
+}
+
+.property .listing-history {
+    margin-top: 20px;
+}
+
+.property .listing-history table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.property .listing-history th,
+.property .listing-history td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.property .listing-history th {
+    background-color: #f2f2f2;
+}
